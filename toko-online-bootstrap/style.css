@@ -1,0 +1,68 @@
+.navbar-brand img {
+  height: 2rem;
+}
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+.carousel-item img {
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.card img {
+  height: 200px;
+  width: 300px;
+}
+.tombol {
+  border-radius: 5px;
+  padding: 5px 5px 5px;
+}
+.jumbotron .container .display-4 {
+  font-weight: 700;
+}
+.btn-primary {
+  border-width: medium;
+  border-radius: 0;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #f3823b;
+  background-color: #f3823b;
+  color: white;
+}
+.bg-primary {
+  background-color: #f3823b !important ;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  border-color: #eb9c6b;
+  background-color: #f3823b;
+  color: white;
+}
+.btn-secondary {
+  border-width: small;
+  border-radius: 0;
+  font-size: 1rem;
+  margin: 1rem;
+  border-color: #f3823b;
+  background-color: #f3823b;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #eb9c6b;
+  background-color: #f3823b;
+  color: white;
+}
+.nav-link {
+  margin: 0rem 1rem;
+}
+
+@media (min-width: 960px) {
+  .carousel-item img {
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
